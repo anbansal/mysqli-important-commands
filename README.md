@@ -1,4 +1,4 @@
-# mysqli-important-commands
+# important-commands
 mysql important commands 
 
 1.Login into Mysql as root 
@@ -7,3 +7,5 @@ mysql important commands
 Then type this command
 
 >ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; 
+
+>sudo chown -R $(whoami):admin /usr/local/* && sudo chmod -R g+rwx /usr/local/* 
